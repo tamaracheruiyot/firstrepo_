@@ -1,1 +1,1 @@
-I am learning git, git is very easy
+I am learning Git, Git is actually very convenient
