@@ -43,9 +43,12 @@ div > p{
 }
 .borderr{
 	border-right: 1px solid black;
-	/*padding: 10px;*/
+	padding: 10px;
 }
 
+.discover{
+	padding: 0px 5px;
+}
 
     
 
@@ -61,4 +64,29 @@ form{
 	display: flex;
 	height: 100%;
 	align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  
+  color:black;
 }
