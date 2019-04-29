@@ -1,10 +1,10 @@
 nav{
-	background-color: pink;
+	background-color: yellow;
 	width:100vw;
     height: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 55px;
+    padding: 0px 30px;
     box-sizing: border-box;
 
 
@@ -15,17 +15,21 @@ body{
 }
 
 input{
-	padding: 0px 20px;
-	width: 500px;
+	padding: 0px 10px;
+	/*width: 500px;
 	border: 1px solid black;
-	border-radius: 5px;
 	height: 27px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;*/
+	border:none;
+	width:95%;
 
 }
 
+input:focus{
+	outline:none;
+}
+
 div{
-background-color: white;
 display: flex;
 width:150px;
 height:60px;
@@ -41,13 +45,30 @@ div > p{
 	align-items: center;
 	justify-content: center;
 }
+.nav-controls{
+	width:200px;
+}
+
+.nav-controls > div {
+	height: 100%;
+}
+
+/*.nav-controls > div > p {
+	margin: 0;
+}*/
+
 .borderr{
 	border-right: 1px solid black;
-	padding: 10px;
+	padding: 5px;
 }
 
 .discover{
 	padding: 0px 5px;
+    height: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     
@@ -57,13 +78,24 @@ h1{
 	display: flex;
 	align-items: center;
 	font-family: 'Damion', cursive;
-	font-size: 20px;
+	
 }
 
 form{
 	display: flex;
 	height: 100%;
+	width:40%;
 	align-items: center;
+}
+
+form > div{
+	/*display: flex;*/
+	height: 50%;
+	width:100%;
+	/*align-items: center;*/
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid black;
 }
 
 ul {
